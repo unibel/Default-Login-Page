@@ -199,7 +199,8 @@ body::-webkit-input-placeholder {
 
 .login_fields input[type='text']:focus,
 .login_fields input[type='password']:focus {
-    border: 1px solid #333;
+    border: 1px solid #666;
+    box-shadow: inset 0 -2px rgba(0, 0, 0, .5);
 }
 
 .login_fields__user,
