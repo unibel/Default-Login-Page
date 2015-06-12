@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNY - ADMIN LOGIN</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/default/css/main.css" />
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/default/js/jquery.min.js"></script>
+    <script src="assets/default/js/jquery-ui.min.js"></script>
+    <script src="assets/default/js/run-js-run.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--#LOGIN-START -->
+        <div class="login">
+            <div class="login_title">
+                <span>Sisteme Bağlan</span>
+            </div>
+            <div class="login_fields">
+                <div class="login_fields__user">
+                    <div class="icon">
+                        <img src="assets/default/img/user_icon.png">
+                    </div>
+                    <input placeholder="Kullanıcı Adı" type="text">
+                    <div class="validation">
+                        <img src="assets/default/img/tick.png">
+                    </div>
+                    </input>
+                </div>
+                <div class="login_fields__password">
+                    <div class="icon">
+                        <img src="assets/default/img/lock_icon.png">
+                    </div>
+                    <input placeholder="Parola" type="password">
+                    <div class="validation">
+                        <img src="assets/default/img/tick.png">
+                    </div>
+                </div>
+                <div class="login_fields__submit">
+                    <input type="submit" value="Giriş Yap">
+                </div>
+            </div>
+            <div class="success">
+                <h2>Bağlantı Başarılı</h2>
+                <p>
+                    <a href="Default.aspx">Yönlendiriliyorsunuz...</a>
+                </p>
+            </div>
+            <div class="disclaimer">
+                <p>Sisteme bağlanmakta sorun yaşıyorsanız lütfen
+                    <br/> 0 232 489 16 12’den bize ulaşarak yeni parola talebinizi onaylatın.</p>
+            </div>
+            <div class="copyright-bar">
+                <a href="http://www.unibel.com.tr" target="new">ÜNİBEL A.Ş.</a>
+            </div>
+        </div>
+        <div class="authent">
+            <img src="assets/default/img/puff.svg">
+            <p>Giriş Kaydediliyor...</p>
+            <p id="pIP">-</p>
+            <p id="pUlke">-</p>
+            <p id="pISP">-</p>
+        </div>
+        <!--/LOGIN-FINISH -->
+    </div>
+</body>
+
+</html>
